@@ -4,8 +4,9 @@ module.exports = {
     parser: 'babel-eslint',
     sourceType: 'module',
   },
-  extends: ['airbnb-base', 'plugin:vue/essential', 'prettier', 'prettier/vue'],
+  extends: ['airbnb-base', 'plugin:vue/essential'],
   rules: {
+    'arrow-parens': ['as-needed'],
     'no-mixed-operators': 0,
     'max-len': 0,
     radix: 0,

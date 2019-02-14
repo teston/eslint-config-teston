@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-teston",
-  "version": "0.1.0-beta.0",
+  "version": "0.2.0",
   "description": "Teston's very own ESLint config for use across Vue projets",
   "author": "r-frederick <ridge.frederick@gmail.com>",
   "scripts": {
@@ -14,8 +14,8 @@
     "node": ">= 9.0.0"
   },
   "devDependencies": {
-    "babel-preset-teston": "^0.1.0-beta.0",
     "babel-eslint": "^10.0.1",
+    "babel-preset-teston": "^0.1.0-beta.0",
     "eslint": "^5.9.0"
   },
   "dependencies": {

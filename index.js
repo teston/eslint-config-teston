@@ -6,11 +6,11 @@ module.exports = {
   },
   extends: ['airbnb-base', 'plugin:vue/essential'],
   rules: {
-    'arrow-parens': ['as-needed'],
+    'arrow-parens': ['error', 'as-needed'],
     'no-mixed-operators': 0,
     'max-len': 0,
     radix: 0,
-    'no-param-reassign': [2, { props: false }],
+    'no-param-reassign': ['error', { props: false }],
     // allow i++ in for loops
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     // don't require .vue extension when importing

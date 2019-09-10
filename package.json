@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-teston",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Teston's very own ESLint config for use across Vue projets",
-  "author": "r-frederick <ridge.frederick@gmail.com>",
+  "author": "Teston Engineering <dev@teston.io>",
   "scripts": {
     "lint": "eslint --report-unused-disable-directives ."
   },

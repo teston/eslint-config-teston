@@ -7,12 +7,6 @@ module.exports = {
   extends: ['airbnb-base', 'plugin:vue/essential'],
   rules: {
     'arrow-parens': ['error', 'as-needed'],
-    'no-mixed-operators': 0,
-    'max-len': 0,
-    radix: 0,
-    'no-param-reassign': ['error', { props: false }],
-    // allow i++ in for loops
-    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     // don't require .vue extension when importing
     'import/extensions': [
       'error',
@@ -22,7 +16,21 @@ module.exports = {
         vue: 'never',
       },
     ],
+    'lines-between-class-members': [
+      'error',
+      'always',
+      {
+        exceptAfterSingleLine: true,
+      },
+    ],
+    'max-len': 0,
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+    'no-mixed-operators': 0,
+    'no-param-reassign': ['error', { props: false }],
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+    'no-underscore-dangle': 0,
+    'prefer-destructuring': 0,
+    radix: 0,
   },
 };

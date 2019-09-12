@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-teston",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Teston's very own ESLint config for use across Vue projets",
-  "author": "r-frederick <ridge.frederick@gmail.com>",
+  "author": "Teston Engineering <dev@teston.io>",
   "scripts": {
     "lint": "eslint --report-unused-disable-directives ."
   },
@@ -21,8 +21,6 @@
   "dependencies": {
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-vue": "^5.0.0-beta.5",
-    "prettier": "1.15.2"
+    "eslint-plugin-vue": "^5.0.0-beta.5"
   }
 }

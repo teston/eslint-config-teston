@@ -25,12 +25,13 @@ module.exports = {
     ],
     'max-len': 0,
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
+    'no-debugger': ['warn'],
     'no-mixed-operators': 0,
     'no-param-reassign': ['error', { props: false }],
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'no-underscore-dangle': 0,
     'prefer-destructuring': 0,
-    radix: 0,
+    'quote-props': ['warn', 'consistent-as-needed'],
+    'radix': 0,
   },
 };

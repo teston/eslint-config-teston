@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-teston",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Teston's very own ESLint config for use across Vue projets",
   "author": "Teston Engineering <dev@teston.io>",
   "scripts": {
